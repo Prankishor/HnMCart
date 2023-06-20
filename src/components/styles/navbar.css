@@ -1,0 +1,21 @@
+.navbar_container {
+    background-color: white;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_logo {
+    display: flex;
+}
+
+.HM {
+    width: 4rem;
+    height: 2rem;
+}
+
+.badge {
+    height: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+}
