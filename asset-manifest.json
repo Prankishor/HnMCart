@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HnMCart/static/css/main.3db7777a.css",
+    "main.js": "/HnMCart/static/js/main.3b2bc2d9.js",
+    "static/media/HM.svg": "/HnMCart/static/media/HM.090bb3c41325217c0316a4ce287d5767.svg",
+    "index.html": "/HnMCart/index.html",
+    "main.3db7777a.css.map": "/HnMCart/static/css/main.3db7777a.css.map",
+    "main.3b2bc2d9.js.map": "/HnMCart/static/js/main.3b2bc2d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db7777a.css",
+    "static/js/main.3b2bc2d9.js"
+  ]
+}
