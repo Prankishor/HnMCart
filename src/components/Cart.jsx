@@ -125,7 +125,7 @@ const Cart = () => {
                 </div>
             )}
             <div className="footer">
-                <span>Project Based Learning by Prankishore Talukdar 2023 </span>
+                <span>H&M Cart dummy by Prankishor </span>
             </div>
         </div>
 

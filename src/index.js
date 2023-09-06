@@ -5,7 +5,7 @@ import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 
-import productReducer, { productsFetch } from './features/productSlice';
+import productReducer from './features/productSlice';
 import { productsApi } from './features/productsApi';
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
 import cartReducer, { getTotals } from './features/cartSlice';
@@ -22,8 +22,6 @@ const store = configureStore({
 
 setupListeners(store.dispatch)
 store.dispatch(getTotals())
-
-//store.dispatch(productsFetch());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

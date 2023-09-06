@@ -275,3 +275,48 @@
   font-weight: 600;
   color: gray;
 }
+
+@media screen and (max-width: 600px) {
+
+  .cart-item,
+  .cart-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .cart-item .cart-product-total-price {
+    padding-right: 0.5rem;
+    justify-self: center;
+    font-weight: 700;
+  }
+
+  .cart-item .cart-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-title,
+  .price,
+  .quantity,
+  .total {
+    display: none;
+  }
+
+  .cart-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(187, 187, 187);
+    padding-top: 2rem;
+  }
+
+  .subtotal {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
